@@ -15,7 +15,7 @@ function App() {
         return <AnimalShow type={animal} key={index} />;
     });
     return (
-        <div>
+        <div className="app">
             <button onClick={handleClick}>Add Animal</button>
             <div>{renderedAnimals}</div>
         </div>

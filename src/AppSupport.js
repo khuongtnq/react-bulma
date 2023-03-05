@@ -4,7 +4,7 @@ import AlexaImage from "./images/alexa.png";
 import CortanaImage from "./images/cortana.png";
 import SiriImage from "./images/siri.png";
 
-function App() {
+function AppSupport() {
     return (
         <div>
             <section className='hero is-primary'>
@@ -46,4 +46,4 @@ function App() {
     );
 }
 
-export default App;
+export default AppSupport;
