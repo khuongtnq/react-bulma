@@ -1,8 +1,11 @@
+import ImageShow from "./ImageShow";
+
 function ImageList ({ images }) {
     <div>
         images.forEach((element) => {
-            console.log({element});
-            <image src={element.link}></image>
+            <ImageShow 
+                image = { element }
+            />
         });
     </div>
 };
